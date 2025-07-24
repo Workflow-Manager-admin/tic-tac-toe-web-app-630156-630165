@@ -1,6 +1,7 @@
 /* CSS Variables for Theme Management */
 :root {
 <<<<<<< HEAD
+<<<<<<< HEAD
   --primary-color: #1E90FF;
   --accent-color: #FF6347;
   --secondary-color: #FFD700;
@@ -10,11 +11,14 @@
   --text-color: #ffffff;
   --border-color: rgba(255, 255, 255, 0.2);
 =======
+=======
+>>>>>>> parent of 15b4049 (CheckPoint - cg08707bfc)
   /* Light theme colors */
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
   --text-primary: #282c34;
   --text-secondary: #61dafb;
+<<<<<<< HEAD
   --border-color: #e9ecef;
   --button-bg: #007bff;
   --button-text: #ffffff;
@@ -40,6 +44,22 @@
   --text-color: #333333;
   --border-color: #e9ecef;
 >>>>>>> parent of d226652 (CheckPoint - cg08707bfc)
+=======
+  --border-color: #e9ecef;
+  --button-bg: #007bff;
+  --button-text: #ffffff;
+}
+
+[data-theme="dark"] {
+  /* Dark theme colors */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #282c34;
+  --text-primary: #ffffff;
+  --text-secondary: #61dafb;
+  --border-color: #404040;
+  --button-bg: #0056b3;
+  --button-text: #ffffff;
+>>>>>>> parent of 15b4049 (CheckPoint - cg08707bfc)
 }
 
 .App {
@@ -79,6 +99,7 @@
   transition: color 0.3s ease;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .game-board {
   display: grid;
@@ -130,12 +151,17 @@
 .reset-button {
   background-color: var(--secondary-color);
 =======
+=======
+>>>>>>> parent of 15b4049 (CheckPoint - cg08707bfc)
 .theme-toggle {
   position: absolute;
   top: 20px;
   right: 20px;
   background-color: var(--button-bg);
   color: var(--button-text);
+<<<<<<< HEAD
+>>>>>>> parent of 15b4049 (CheckPoint - cg08707bfc)
+=======
 >>>>>>> parent of 15b4049 (CheckPoint - cg08707bfc)
   border: none;
   border-radius: 8px;
