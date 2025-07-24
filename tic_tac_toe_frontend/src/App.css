@@ -3,9 +3,9 @@
   --primary-color: #1E90FF;
   --accent-color: #FF6347;
   --secondary-color: #FFD700;
-  --bg-color: #ffffff;
-  --text-color: #333333;
-  --border-color: #e9ecef;
+  --bg-color: #B22222;
+  --text-color: #ffffff;
+  --border-color: rgba(255, 255, 255, 0.2);
 }
 
 .App {
@@ -36,8 +36,8 @@
 }
 
 .square {
-  background: white;
-  border: 2px solid var(--primary-color);
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid var(--border-color);
   border-radius: 8px;
   font-size: 2.5rem;
   font-weight: bold;
@@ -47,7 +47,7 @@
   width: 100%;
   cursor: pointer;
   transition: all 0.2s;
-  color: var(--text-color);
+  color: var(--bg-color);
 }
 
 .square:hover {
